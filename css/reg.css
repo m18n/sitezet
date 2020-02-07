@@ -1,0 +1,103 @@
+#textnav{
+	 
+	margin-right: 3.6%;
+}
+#textnav a{
+
+	font-weight: 510;
+}
+#color{
+	color:white;
+}
+#logo{
+	width: 75px;
+
+}
+#sen{
+	color:#009FFF;
+}
+.wrapper{
+	display: grid;
+	
+	
+  
+}
+.reg{
+
+	margin-top: 10%;
+
+	display: grid;
+	grid-template-rows: 15% 84%;
+	
+	justify-self: center;
+	width: 20%;
+
+}
+#form{
+	display: grid;
+	grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+	
+	grid-row-gap: 3%;
+
+}
+
+#butt{
+	width: 60%;
+	justify-self: center;
+	background-color: #009FFF;
+	outline: none;
+	font-weight: 500;
+	color:white;
+	border:0;
+}
+#fam{
+	width: 100%;
+
+}
+#name{
+	width: 100%;
+}
+#email{
+	width: 100%;
+}
+#password{
+	width: 100%;
+}
+#password2{
+	width: 100%;
+}
+#telephon{
+	width: 100%;
+}
+.textza p{
+	font-weight: 500;
+	font-size:110%;
+}
+@media (max-width: 900px){
+	.reg{
+
+	margin-top: 10%;
+
+	display: grid;
+	grid-template-rows: 20% 80%;
+	
+	justify-self: center;
+	width: 30%;
+	
+
+}
+}
+@media (max-width: 800px){
+	.reg{
+
+	margin-top: 10%;
+
+	display: grid;
+	grid-template-rows: 20% 80%;
+	
+	justify-self: center;
+	width: 60%;
+	
+
+}
+}

@@ -1,0 +1,24 @@
+#textnav{
+	 
+	margin-right: 3.6%;
+}
+#textnav a{
+
+	font-weight: 510;
+}
+#color{
+	color:white;
+}
+#logo{
+	width: 75px;
+
+}
+#sen{
+	color:#009FFF;
+}
+#text{
+	text-align: center;
+	font-weight: 500;
+	font-size: 130%;
+	
+}

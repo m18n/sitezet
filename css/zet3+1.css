@@ -1,0 +1,19 @@
+#logo{
+	width: 75px;
+
+}
+#textnav{
+	 
+	margin-right: 3.6%;
+}
+#textnav a{
+
+	color: white;
+	font-weight: 510;
+}
+.photo img{
+	height: 200px;
+}
+.wrapper{
+	display: grid;
+}

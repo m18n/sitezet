@@ -1,0 +1,35 @@
+.back{
+	display: grid;
+	margin-left: 20%;
+	grid-template-columns: 34%;
+
+}
+.katigrao {
+	background-color: #F4F4F4;
+	
+	font-weight: 600;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 11.1% 11.1% 11.1% 11.1% 11.1% 11.1% 11.1% 11.1% 11.1%;
+
+}
+.option1{
+	display: grid;
+	grid-row-start: auto;
+	grid-template-columns: 60% 40%;
+
+}
+.texetoption1{
+	grid-column-start: 1;
+}
+.optiontext select{
+	grid-column-start: 2;
+	width: 100%;
+}
+#led{
+	text-align: left;
+}
+.restext{
+	
+	 justify-self: end;
+}
