@@ -22,7 +22,7 @@
 	
 }
 .photo{
-	background-color: yellow;
+	
 	
 }
 .center{
@@ -35,18 +35,26 @@
 /* kal start */
 .back{
 	display: grid;
-
+	
 	grid-template-columns: 100%;
+	grid-template-rows: 10% 90%;
+	
+	
+}
+.textpre{
+	
 
+}
+.textpre p{
+	font-weight: 500;
+	font-size: 110%;
 }
 .katigrao {
 	background-color: #F4F4F4;
-		grid-column-start: auto;
 		
 	font-weight: 600;
 	display: grid;
-	
-	
+	height: 230px;
 	grid-template-columns: 100%;
 	grid-template-rows: 11.1% 11.1% 11.1% 11.1% 11.1% 11.1% 11.1% 11.1% 11.1%;
 
@@ -67,9 +75,44 @@
 #led{
 	text-align: left;
 }
-.restext{
+.restext {
+	display: grid;
+	grid-template-columns: 20% 80%;
 	
-	 justify-self: end;
 }
 
+.butt{
+	
+	 justify-self: start;
+	 width: 100%;
+}
+.podphoto{
+	display: grid;
+	grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+	grid-template-rows:50% 50%;
+	grid-column-gap: 3%;
+	grid-row-gap:4%;
+
+}
+.photoslide1 img{
+	width: 100%;
+	border:solid 1px #F4F4F4 ;
+}
+
+.butt button{
+	background-color:#007ADA;
+	border-radius: 3px;
+	border: 0;
+	color:white;
+	font-weight: 500; 
+	cursor: pointer;
+width: 100%;
+}
+.butt button:hover{
+	background-color: #239DFD;
+}
+.prive{
+	 justify-self: end;
+	
+}
 /*kal end*/

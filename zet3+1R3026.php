@@ -35,6 +35,7 @@
     </div>
   </nav>
   <div class="wrapper">
+    <!-- start center-->
     <div class="center">
       <div class="photo">
         <img src="img/lamp/zet 3+1 R30 26/IMG_7058.JPG">
@@ -42,6 +43,9 @@
       <!-- kalulator-->
       <div class="kalulator">
         <div class="back">
+          <div class="textpre">
+            <p >Zet 3+1 R30 26</p>
+          </div>
           <div class="katigrao">
             <div class="option1">
               <div class="texetoption1">
@@ -146,7 +150,13 @@
           </div>
 
           <div class="restext">
+            <div class="butt">
+             <button>Купить</button>
+             </div>
+             <div class="prive">
              <a id="res">200$</a>
+             </div>
+
           </div>
 
             </div>
@@ -154,7 +164,32 @@
                 </div>
 
       <!-- end kalulator-->
+      <div class="podphoto">
+        <div class="photoslide1">
+          <img src="img/lamp/zet 3+1 R30 26/IMG_7043.JPG">
+        </div>
+        <div class="photoslide1">
+          <img src="img/lamp/zet 3+1 R30 26/IMG_7050.JPG">
+        </div>
+        <div class="photoslide1">
+          <img src="img/lamp/zet 3+1 R30 26/IMG_7058.JPG">
+        </div>
+        <div class="photoslide1">
+          <img src="img/lamp/zet 3+1 R30 26/IMG_7064.JPG">
+        </div>
+        <div class="photoslide1">
+          <img src="img/lamp/zet 3+1 R30 26/IMG_7076.JPG">
+        </div>
+        <div class="photoslide1">
+          <img src="img/lamp/zet 3+1 R30 26/IMG_7094.JPG">
+        </div>
+        <div class="photoslide1">
+          <img src="img/lamp/zet 3+1 R30 26/IMG_7095.JPG">
+        </div>
+       
+      </div>
     </div>
+    <!-- end center-->
   </div>
 
     <script type="text/javascript" src="javasript/kal.js"></script>
