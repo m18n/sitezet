@@ -12,8 +12,64 @@
 	font-weight: 510;
 }
 .photo img{
-	height: 200px;
+	height: 250px;
 }
 .wrapper{
 	display: grid;
+	grid-template-columns: 8% 84% 8%;
+	margin-top: 1%;
+
+	
 }
+.photo{
+	background-color: yellow;
+	
+}
+.center{
+	display: grid;
+	
+	grid-column-start: 2;
+	grid-column-gap: 10%;
+	grid-template-columns: 458px 35%;
+}
+/* kal start */
+.back{
+	display: grid;
+
+	grid-template-columns: 100%;
+
+}
+.katigrao {
+	background-color: #F4F4F4;
+		grid-column-start: auto;
+		
+	font-weight: 600;
+	display: grid;
+	
+	
+	grid-template-columns: 100%;
+	grid-template-rows: 11.1% 11.1% 11.1% 11.1% 11.1% 11.1% 11.1% 11.1% 11.1%;
+
+}
+.option1{
+	display: grid;
+	grid-row-start: auto;
+	grid-template-columns: 60% 40%;
+
+}
+.texetoption1{
+	grid-column-start: 1;
+}
+.optiontext select{
+	grid-column-start: 2;
+	width: 100%;
+}
+#led{
+	text-align: left;
+}
+.restext{
+	
+	 justify-self: end;
+}
+
+/*kal end*/
