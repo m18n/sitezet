@@ -44,7 +44,7 @@
       <div class="kalulator">
         <div class="back">
           <div class="textpre">
-            <p >Zet 3+1 R30 26</p>
+            <p >Zet 50+6</p>
           </div>
           <div class="katigrao">
             <div class="option1">
