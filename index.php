@@ -132,7 +132,7 @@ require 'server.php';
             <img src="img/lamp/zet 3+1 R30 26/IMG_7076.JPG">
           </div>
           <div class="textmodel1">
-            <p>Zet 3+1 R30 26</p>
+            <p>ZET 50+6</p>
           </div>
           <div class="chekboks">
             <label class="container">
