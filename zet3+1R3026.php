@@ -12,6 +12,26 @@
     <title>zet 3+1 R30 26</title>
   </head>
   <body>
+    <div class="buydiv" id="os">
+      <div class="backdiv">
+        <form action="zet3+1R3026.php" method="POST" id="inp">
+          <img src="img/25364.png" id="xr">
+          <input type="email" name="email" placeholder="email">
+          <input type="telephon" name="telephon" placeholder="номер телефона">
+           <input type="name" name="name" placeholder="Имя">
+           <input type="lastname" name="lastname" placeholder="Фамилия">
+           <div class="str">
+            <div class="butt">
+             <button>Купить</button>
+             </div>
+           <p id="den">
+             hi
+           </p>
+
+         </div>
+        </form>
+      </div>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#"><img src="img/unitled.png" id="logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -151,7 +171,7 @@
 
           <div class="restext">
             <div class="butt">
-             <button>Купить</button>
+             <button id="kup">Купить</button>
              </div>
              <div class="prive">
              <a id="res">200$</a>
@@ -191,8 +211,9 @@
     </div>
     <!-- end center-->
   </div>
-
-    <script type="text/javascript" src="javasript/kal.js"></script>
+  <script type="text/javascript" src="javasript/kal.js"></script>
+  <script type="text/javascript" src="javasript/zet.js"></script>
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
