@@ -19,7 +19,11 @@ function changeFunc() {
  	var result=selectedValue+selectedValue1+selectedValue2+selectedValue3+selectedValue4+selectedValue5+selectedValue6+selectedValue7+200;
  	var restext=document.getElementById("res");
     window['res'] = result;
+
  	restext.innerHTML = result+"$$";
+
+ 	
+
 
    
    }
