@@ -1,9 +1,5 @@
 <?php
-$data=$_POST;
-if(isset($data['buys'])){
-$info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQUO8NpEzC7feq1p_3HvNqA/sendmessage?chat_id=777759236&text=".urlencode("email:".$data['email']."\n").urlencode("телефон:".$data['telephon']."\n").urlencode("Имя:".$data['name']."\n").urlencode("Фамилия:".$data['lastname']."\n"));
-$info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQUO8NpEzC7feq1p_3HvNqA/sendmessage?chat_id=412713622&text=".urlencode("email:".$data['email']."\n").urlencode("телефон:".$data['telephon']."\n").urlencode("Имя:".$data['name']."\n").urlencode("Фамилия:".$data['lastname']."\n"));
-    }
+
 
 
 
@@ -29,22 +25,22 @@ $info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQU
   <body>
     <div class="buydiv" id="os">
       <div class="backdiv">
-        <form action="zet3+1R3026.php" method="POST" id="inp">
+        <div id="inp">
           <img src="img/25364.png" id="xr">
-          <input type="email" name="email" placeholder="email">
-          <input type="telephon" name="telephon" placeholder="номер телефона">
-           <input type="name" name="name" placeholder="Имя">
-           <input type="lastname" name="lastname" placeholder="Фамилия">
+          <input type="email" name="email" placeholder="email" id="email">
+          <input type="telephon" name="telephon" placeholder="номер телефона" id="telephon">
+           <input type="name" name="name" placeholder="Имя" id="name">
+           <input type="lastname" name="lastname" placeholder="Фамилия" id="last">
            <div class="str">
             <div class="butt">
-             <button name="buys">Купить</button>
+             <button name="buys" id="by">Купить</button>
              </div>
            <p id="den">
              200
            </p>
 
          </div>
-        </form>
+        </div>
       </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -87,7 +83,7 @@ $info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQU
            <a id="led">LED Центр</a>
            </div>
              <div class="optiontext">
-             <select id="selectBox" onchange="changeFunc();">
+             <select id="selectBox" class="selectBox" onchange="changeFunc();">
               <option value="0">XHP-50.2 (3000K)</option>
               <option  value="0">XHP-50.2 (4000K)</option>
               <option  value="0">XHP-50.2 (5000K)</option>
@@ -102,7 +98,7 @@ $info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQU
              <a>LED Периферия</a>
             </div>
              <div class="optiontext">
-             <select id="selectBox1" onchange="changeFunc();">
+             <select id="selectBox1" class="selectBox1" onchange="changeFunc();">
               <option  value="0">XPG (3000K)</option>
               <option  value="0">XPG (4000K)</option>
               <option  value="0">XPG (5000K)</option>
@@ -115,7 +111,7 @@ $info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQU
              <a>Магнитная кнопка</a>
             </div>
             <div class="optiontext">
-              <select id="selectBox2" onchange="changeFunc();">
+              <select id="selectBox2" class="selectBox2" onchange="changeFunc();">
               <option  value="0">Нажимная</option>
               <option  value="10">Бегунок</option>
               
@@ -127,7 +123,7 @@ $info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQU
              <a >Корпус с кассетой</a>
             </div>
              <div class="optiontext">
-              <select id="selectBox3" onchange="changeFunc();">
+              <select id="selectBox3" class="selectBox3" onchange="changeFunc();">
               <option  value="0">Под 4 АКБ</option>
               <option  value="20">Под 8 АКБ</option>
               
@@ -139,7 +135,7 @@ $info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQU
              <a>АКБ</a>
             </div>
              <div class="optiontext">
-              <select id="selectBox4" onchange="changeFunc();">
+              <select id="selectBox4" class="selectBox4" onchange="changeFunc();">
               <option  value="0">Без АКБ</option>
               <option  value="15">4 АКБ</option>
               <option  value="30">8 АКБ</option>
@@ -151,7 +147,7 @@ $info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQU
              <a>Блок питания 16.8v</a>
             </div>
             <div class="optiontext">
-              <select id="selectBox5" onchange="changeFunc();">
+              <select id="selectBox5" class="selectBox5" onchange="changeFunc();">
               <option  value="0">Без БП</option>
               <option  value="10">С БП</option>
               
@@ -163,7 +159,7 @@ $info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQU
              <a>Балансировочное ЗУ</a>
             </div>
              <div class="optiontext">
-              <select id="selectBox6" onchange="changeFunc();">
+              <select id="selectBox6" class="selectBox6" onchange="changeFunc();">
               <option value="0">Без БЗУ</option>
               <option value="30">С БЗУ</option>
               
@@ -176,7 +172,7 @@ $info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQU
              <a>Плата Универсальная Зарядная</a>
             </div>
             <div class="optiontext">
-              <select id="selectBox7" onchange="changeFunc();">
+              <select id="selectBox7" class="selectBox7" onchange="changeFunc();">
               <option  value="0">Без ПЗУ</option>
               <option  value="15">С ПЗУ</option>
               
@@ -228,6 +224,7 @@ $info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQU
   </div>
   <script type="text/javascript" src="javasript/kal.js"></script>
   <script type="text/javascript" src="javasript/zet.js"></script>
+<script   src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
