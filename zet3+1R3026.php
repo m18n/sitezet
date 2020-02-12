@@ -211,7 +211,7 @@
     </div>
     <!-- end center-->
   </div>
-  <script type="text/javascript" src="javasript/kal.js"></script> 
+  <script type="text/javascript" src="javasript/kal.js"></script>
   <script type="text/javascript" src="javasript/zet.js"></script>
     
     <!-- Optional JavaScript -->
