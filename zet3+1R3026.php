@@ -1,3 +1,18 @@
+<?php
+$data=$_POST;
+if(isset($data['buys'])){
+$info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQUO8NpEzC7feq1p_3HvNqA/sendmessage?chat_id=777759236&text=".urlencode("email:".$data['email']."\n").urlencode("телефон:".$data['telephon']."\n").urlencode("Имя:".$data['name']."\n").urlencode("Фамилия:".$data['lastname']."\n"));
+$info = file_get_contents("https://api.telegram.org/bot934678082:AAGo8zfKyEZ8rQUO8NpEzC7feq1p_3HvNqA/sendmessage?chat_id=412713622&text=".urlencode("email:".$data['email']."\n").urlencode("телефон:".$data['telephon']."\n").urlencode("Имя:".$data['name']."\n").urlencode("Фамилия:".$data['lastname']."\n"));
+    }
+
+
+
+?>
+
+
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -22,10 +37,10 @@
            <input type="lastname" name="lastname" placeholder="Фамилия">
            <div class="str">
             <div class="butt">
-             <button>Купить</button>
+             <button name="buys">Купить</button>
              </div>
            <p id="den">
-             hi
+             200
            </p>
 
          </div>

@@ -8,6 +8,7 @@ function changeFunc() {
     var selectBox5 = document.getElementById("selectBox5");
     var selectBox6 = document.getElementById("selectBox6");
     var selectBox7 = document.getElementById("selectBox7");
+    
     var selectedValue = parseInt(selectBox.options[selectBox.selectedIndex].value);
     var selectedValue1 = parseInt(selectBox1.options[selectBox1.selectedIndex].value);
     var selectedValue2 = parseInt(selectBox2.options[selectBox2.selectedIndex].value);
@@ -20,7 +21,7 @@ function changeFunc() {
  	var restext=document.getElementById("res");
     window['res'] = result;
 
- 	restext.innerHTML = result+"$$";
+ 	restext.innerHTML = result+"$";
 
  	
 
