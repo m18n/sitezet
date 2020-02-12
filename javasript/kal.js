@@ -20,7 +20,7 @@ function changeFunc() {
  	var restext=document.getElementById("res");
     window['res'] = result;
  	restext.innerHTML = result+"$";
- 	
-
+     	
+s
    
    }

@@ -1,3 +1,4 @@
+
 var kip=document.getElementById("kup");
 var block=document.getElementById("os");
 var xr=document.getElementById("xr");
