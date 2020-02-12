@@ -21,6 +21,6 @@ function changeFunc() {
     window['res'] = result;
  	restext.innerHTML = result+"$";
      	
-s
+ss
    
    }
