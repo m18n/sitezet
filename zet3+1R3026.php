@@ -1,6 +1,6 @@
 <?php
 
-
+require 'server.php';
 
 
 ?>
@@ -62,6 +62,24 @@
         <li class="nav-item">
           <a class="nav-link " href="#"> Контакты </a>
         </li>
+        <?php
+       
+        if(isset($_SESSION['logged_user'])){
+          echo "<li class='nav-item' >
+          <a class='nav-link ' href='ak.php' id='sen'>Аккаунт</a>
+        </li>";
+        }else{
+          echo "<li class='nav-item' >
+          <a class='nav-link ' href='login.php' id='sen'>Вход</a>
+        </li>
+        <li class='nav-item' >
+          <a class='nav-link ' href='reg.php' id='sen'>Регистрация</a>
+        </li>";
+           
+        }
+
+
+        ?>
       </ul>
     </div>
   </nav>

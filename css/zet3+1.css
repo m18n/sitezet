@@ -6,6 +6,9 @@
 	 
 	margin-right: 3.6%;
 }
+#sen{
+	color:#009FFF;
+}
 .buydiv{
 	position: fixed;
 	background: rgba( 21, 0, 0, 0.5);
