@@ -51,16 +51,16 @@ require 'server.php';
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav  ml-auto" id="textnav">
         <li class="nav-item ">
-          <a class="nav-link" href="index.php"> Главная </a>
+          <a class="nav-link" href="index.php" id="lav"> Главная </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"> О нас </a>
+          <a class="nav-link" href="#" id="lav"> О нас </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"> Продукты </a>
+          <a class="nav-link" href="#" id="lav"> Продукты </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#"> Контакты </a>
+          <a class="nav-link " href="#" id="lav"> Контакты </a>
         </li>
         <?php
        
@@ -93,7 +93,7 @@ require 'server.php';
       <div class="kalulator">
         <div class="back">
           <div class="textpre">
-            <p >Zet 50+6</p>
+            <p >ZET R40 26650</p>
           </div>
           <div class="katigrao">
             <div class="option1">
@@ -113,90 +113,54 @@ require 'server.php';
              </div>
              <div class="option1">
                 <div class="texetoption1">
-             <a>LED Периферия</a>
+             <a>Кнопка управления</a>
             </div>
              <div class="optiontext">
              <select id="selectBox1" class="selectBox1" onchange="changeFunc();">
-              <option  value="0">XPG (3000K)</option>
-              <option  value="0">XPG (4000K)</option>
-              <option  value="0">XPG (5000K)</option>
-              <option  value="0">XPG (6000K)</option>
-             </select>
-             </div>
-            </div>
-            <div class="option1">
-                <div class="texetoption1">
-             <a>Магнитная кнопка</a>
-            </div>
-            <div class="optiontext">
-              <select id="selectBox2" class="selectBox2" onchange="changeFunc();">
               <option  value="0">Нажимная</option>
-              <option  value="10">Бегунок</option>
+              <option  value="10">Поворотная</option>
               
              </select>
              </div>
             </div>
+            
             <div class="option1">
                 <div class="texetoption1">
-             <a >Корпус с кассетой</a>
+             <a >Корпус</a>
             </div>
              <div class="optiontext">
               <select id="selectBox3" class="selectBox3" onchange="changeFunc();">
-              <option  value="0">Под 4 АКБ</option>
-              <option  value="20">Под 8 АКБ</option>
+              <option  value="0">под 2 АКБ</option>
+              <option  value="15">под 3 АКБ</option>
               
              </select>
             </div>
           </div>
             <div class="option1">
                 <div class="texetoption1">
-             <a>АКБ</a>
+             <a>АКБ 26650</a>
             </div>
              <div class="optiontext">
               <select id="selectBox4" class="selectBox4" onchange="changeFunc();">
               <option  value="0">Без АКБ</option>
-              <option  value="15">4 АКБ</option>
-              <option  value="30">8 АКБ</option>
+              <option  value="15">2 АКБ</option>
+              <option  value="30">3 АКБ</option>
              </select>
              </div>
             </div>
             <div class="option1">
                 <div class="texetoption1">
-             <a>Блок питания 16.8v</a>
+             <a>Зарядное Устройство</a>
             </div>
             <div class="optiontext">
               <select id="selectBox5" class="selectBox5" onchange="changeFunc();">
-              <option  value="0">Без БП</option>
-              <option  value="10">С БП</option>
+              <option  value="0">без ЗУ</option>
+              <option  value="15">c ЗУ</option>
               
              </select>
             </div>
           </div>
-            <div class="option1">
-                <div class="texetoption1">
-             <a>Балансировочное ЗУ</a>
-            </div>
-             <div class="optiontext">
-              <select id="selectBox6" class="selectBox6" onchange="changeFunc();">
-              <option value="0">Без БЗУ</option>
-              <option value="30">С БЗУ</option>
-              
-             </select>
-            </div>
-          </div>
-
-             <div class="option1">
-                <div class="texetoption1">
-             <a>Плата Универсальная Зарядная</a>
-            </div>
-            <div class="optiontext">
-              <select id="selectBox7" class="selectBox7" onchange="changeFunc();">
-              <option  value="0">Без ПЗУ</option>
-              <option  value="15">С ПЗУ</option>
-              
-             </select>
-            </div>
-          </div>
+            
 
           <div class="restext">
             <div class="butt">
@@ -239,6 +203,76 @@ require 'server.php';
       </div>
     </div>
     <!-- end center-->
+  </div>
+  <div class="text">
+    Фонарь ZET R40
+Подводный фонарь ZET-R40 - это современный, мощный фонарь с рефлектором оптимального
+диаметра в паре с 20W диодом выдает четко выраженное центральное световое пятно с резким
+переходом в ореол большого диаметра. Характеризуется как мощный поисковый фонарь для мутной
+воды. Очень удобен для обнаружения объектов на дальнем плане как днем так и ночью.
+При заказе фонаря есть возможность выбора температуры и типа светодиода.
+Доступна установка диодов
+*XHP-50.2 * XHP-70.2 * MT-G2
+и 4 варианта цветовой температуры - 3000К, 4000К, 5000 и 6000К.
+Доступные для установки светодиоды выдают суммарную мощность светового потока в диапазоне
+1900 до 2400 lm света, а отражатель большого диаметра формирует из этого потока хорошее
+пробивное световое пятно с ярким центром и большим ореолом.
+Благодаря компактному размещению 4 АКБ типоразмера 18650 в кассете фонаря, время
+непрерывного свечения на мах режиме достигает 2.5 ч. При этом сохранены небольшие габариты
+фонаря что, позволяют размещать его на ресивере ружья.
+Технические данные:
+Материал Д16Т
+Твердый анод
+Формирование луча – Рефлектор D=42мм
+Источник света 20 ватный диод на выбор
+Световая отдача максимальная-2400 Лм
+Температура цвета-3000К, (4000К),(5000К)
+АКБ 18650 Li-Ion- 3400 mAh.
+Магнитная нажимная кнопка.
+Вес - * 330 гр без акб и 530 гр. с акб.
+Габариты- Диаметр 50 мм * H - 170 mm
+Возможности фонаря :
+*Размеры светового пятна с расстояния 2м – яркая центральная часть – D=0.9м и ореол D=3.5м.
+*Режимы - 4 Сценария с различными уровнями яркости
+5 - 15%, 30%, 40% 70% и 100%
+3 - 20% 60% и 100%
+2 - 50% и 100%
+1 - 100%
+Время работы от 4х акб емкостью 3400 mAh
+* 100% - 2400Лм – 2ч30м
+* 70% - 1600Лм - 3м
+* 45% - 1000Лм – 5ч
+*Блокировка фонаря (блокировка управления от случайного включения) чз кнопку массы.
+* Сигнализация (моргание) при разряде АКБ при понижении напряжения до 3в на банку.
+* Отключение - при разряде 10,8V (2,7 – на банку)
+* Защита от переполюсовки.
+* Термозащита – сигнализация с частым морганием.- необходимо перейти на пониженный режим..
+Управление фонарем:
+Вставить акб в кассету - при этом желательно не путать полярность (плоская часть батареи "минус"
+вставлять к пружине)
+Затем нажать кнопку массы в тыльной части кассеты - фонарь включится.
+Закрутить тубус с тыльником до упора.
+* Короткое нажатие торцевой Магнитной Кнопки - ВКЛючение - ВЫКЛючение фонаря
+* Нажатие МК с удержанием - перебор режимов
+* На нужном режиме яркости отпускаем кнопку - фонарь сразу запомнит этот режим.
+Выбор сценария с режимами.
+Для переключения группы режимов перейдите в минимальный режим чз кнопку массы в тыльной
+части кассеты - быстрым кликом или полу-нажатием кнопки.
+через 5 секунд фонарь мигнет и сразу после этого выкл фонарь.
+При следующем включении будет выбрана следующий сценарий.
+Комплект поставки:
+ фонарь ZET
+ темляк на руку
+ запасные уплотнительные резиновые кольца
+ инструкция с таблицей режимов
+Основные достоинства:
+ мощный свет
+ малые габариты
+ хорошее качество изготовления и высокое качество комплектующих
+ большая мощность и длительное время свечения
+ простота и надежность
+ возможность замены аккумуляторов
+ возможность зарядки акб не вынимая их из кассеты разными ЗУ
   </div>
   <script type="text/javascript" src="javasript/kal.js"></script>
   <script type="text/javascript" src="javasript/zet.js"></script>
